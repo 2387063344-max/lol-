@@ -1,0 +1,26 @@
+# 密钥
+.env
+
+# 运行产物
+data/
+*.db
+*.db-wal
+*.db-shm
+__pycache__/
+*.pyc
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 评测输出
+eval/reports/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+
+# IDE 项目数据（含本地对话记录）
+.codebuddy/

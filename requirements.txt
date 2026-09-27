@@ -1,0 +1,6 @@
+# 核心依赖（保持精简，便于初学者理解每一环在做什么）
+requests>=2.31.0          # 拉取 Data Dragon 官方数据 + 调用 OpenAI 兼容的 LLM/Embedding/搜索接口
+python-dotenv>=1.0.0      # 读取 .env 中的密钥
+numpy>=1.26.0             # 离线降级向量计算 & 相似度计算
+chromadb>=0.6.0           # 向量知识库（本地持久化，无需起服务）
+gradio>=5.0.0             # 对话界面

@@ -1,0 +1,35 @@
+{"id": 1, "category": "numeric", "expected_route": "structured", "question": "亚索 W 技能的冷却时间是多少？", "keywords": ["冷却"]}
+{"id": 2, "category": "numeric", "expected_route": "structured", "question": "亚索的被动技能叫什么？", "keywords": ["被动"]}
+{"id": 3, "category": "numeric", "expected_route": "structured", "question": "亚索的基础生命值是多少？", "keywords": ["生命值"]}
+{"id": 4, "category": "numeric", "expected_route": "structured", "question": "亚索的移动速度是多少？", "keywords": ["移动速度"]}
+{"id": 5, "category": "numeric", "expected_route": "structured", "question": "亚索的攻击距离是多少？", "keywords": ["攻击距离"]}
+{"id": 6, "category": "numeric", "expected_route": "structured", "question": "亚索 R 技能的冷却是多少？", "keywords": ["冷却"]}
+{"id": 7, "category": "numeric", "expected_route": "structured", "question": "诺克萨斯之手法力值是多少？", "keywords": ["法力值"]}
+{"id": 8, "category": "numeric", "expected_route": "structured", "question": "诺手的 Q 技能冷却时间是多少？", "keywords": ["冷却"]}
+{"id": 9, "category": "numeric", "expected_route": "structured", "question": "无尽之刃多少钱？", "keywords": ["金币"]}
+{"id": 10, "category": "numeric", "expected_route": "structured", "question": "多兰之刃的价格是多少？", "keywords": ["金币"]}
+{"id": 11, "category": "numeric", "expected_route": "structured", "question": "守护天使多少钱？", "keywords": ["金币"]}
+{"id": 12, "category": "numeric", "expected_route": "structured", "question": "卢登的配饰价格是多少？", "keywords": ["金币"]}
+{"id": 13, "category": "numeric", "expected_route": "structured", "question": "电刑这个符文的效果是什么？", "keywords": ["电刑"]}
+{"id": 14, "category": "numeric", "expected_route": "structured", "question": "闪现的冷却时间是多少秒？", "keywords": ["冷却"]}
+{"id": 15, "category": "numeric", "expected_route": "structured", "question": "传送的冷却时间是多少？", "keywords": ["冷却"]}
+{"id": 16, "category": "strategy", "expected_route": "vector", "question": "上单诺手对线应该怎么打？", "keywords": ["出血", "被动"]}
+{"id": 17, "category": "strategy", "expected_route": "vector", "question": "亚索中单的对线思路是什么？", "keywords": ["风墙", "踏前斩"]}
+{"id": 18, "category": "strategy", "expected_route": "vector", "question": "ADC 出装应该怎么选？", "keywords": ["重伤", "穿透"]}
+{"id": 19, "category": "strategy", "expected_route": "vector", "question": "什么是控线，什么时候该控线？", "keywords": ["控线"]}
+{"id": 20, "category": "strategy", "expected_route": "vector", "question": "兵线管理有哪几种基本线态？", "keywords": ["推进", "慢推"]}
+{"id": 21, "category": "strategy", "expected_route": "vector", "question": "换血的时候要看哪些因素？", "keywords": ["小兵", "冷却"]}
+{"id": 22, "category": "strategy", "expected_route": "vector", "question": "怎么提高自己的补刀水平？", "keywords": ["补刀"]}
+{"id": 23, "category": "strategy", "expected_route": "vector", "question": "亚索团战应该怎么处理？", "keywords": ["击飞", "大招"]}
+{"id": 24, "category": "strategy", "expected_route": "vector", "question": "诺手在团战里的定位是什么？", "keywords": ["被动", "斩杀"]}
+{"id": 25, "category": "strategy", "expected_route": "vector", "question": "亚索的风墙应该怎么用？", "keywords": ["风墙", "飞行道具"]}
+{"id": 26, "category": "strategy", "expected_route": "vector", "question": "诺手的 E 技能交掉之后要注意什么？", "keywords": ["拉扯", "位移"]}
+{"id": 27, "category": "matchup", "expected_route": "vector", "question": "什么类型的英雄克制亚索？", "keywords": ["点控"]}
+{"id": 28, "category": "matchup", "expected_route": "vector", "question": "谁克制位移多的英雄？", "keywords": ["点控"]}
+{"id": 29, "category": "matchup", "expected_route": "vector", "question": "一个合理的阵容需要包含哪些角色？", "keywords": ["前排", "控制"]}
+{"id": 30, "category": "matchup", "expected_route": "vector", "question": "怎么判断这个阵容缺什么？", "keywords": ["前排", "输出"]}
+{"id": 31, "category": "latest", "expected_route": "web", "question": "当前版本亚索被加强了吗？", "keywords": ["版本"], "requires_web": true}
+{"id": 32, "category": "latest", "expected_route": "web", "question": "最新版本强势的 ADC 有哪些？", "keywords": ["版本"], "requires_web": true}
+{"id": 33, "category": "latest", "expected_route": "web", "question": "这次补丁改动了什么内容？", "keywords": ["补丁"], "requires_web": true}
+{"id": 34, "category": "latest", "expected_route": "web", "question": "现在版本上单的强度排行是怎样的？", "keywords": ["版本"], "requires_web": true}
+{"id": 35, "category": "unknown", "expected_route": "", "question": "提莫打野应该怎么刷野？", "keywords": [], "note": "本地知识库故意未覆盖，用于验证兜底行为"}
